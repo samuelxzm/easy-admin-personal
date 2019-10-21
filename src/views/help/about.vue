@@ -1,0 +1,9 @@
+<template>
+  <el-card>
+    关于
+    <el-link
+      type="primary"
+      href="https://github.com/samuelxzm/easy-admin"
+    >https://github.com/samuelxzm/easy-admin</el-link>
+  </el-card>
+</template>

@@ -1,0 +1,44 @@
+/*公共样式*/
+.el-pagination{
+  margin-top:10px;
+  text-align:right;
+}
+/* 弹窗样式 */
+.pop_box{
+  margin-top:-10vh;
+  z-index:10000;
+}
+.pop_box .el-textarea {
+  width: 615px!important;
+  margin-left: 80px;
+  margin-top: -40px;
+}
+.el-dialog label {
+  font-weight: 700;
+}
+.el-dialog .dialog-footer {
+  text-align: right;
+}
+.el-dialog--center .el-dialog__body {
+  padding: 25px 25px 10px;
+}
+.el-dialog__header{
+  border-bottom: 1px solid #e8e8e8;
+  font-weight: bold;
+}
+/* 主内容 */
+.container{
+  padding:20px;
+}
+/* 表单 */
+.data_box .el-range-input,.data_box .el-input__inner {
+    background: transparent !important;
+    color:#fff;
+}
+.data_box .el-range-separator{
+  color:#999;
+}
+/* 左侧导航 */
+.sidemenu-scrollbar__wrap{
+    margin-right: -18px !important;
+}
