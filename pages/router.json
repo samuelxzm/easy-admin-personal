@@ -1,0 +1,66 @@
+{
+  "routerApi": false,
+  "routerList": [
+    {
+      "path": "/",
+      "component": "Main",
+      "redirect":"/dashboard",
+      "meta": {
+        "icon": "delete"
+      },
+      "children": [
+        {
+          "path": "dashboard",
+          "name": "首页",
+          "component": "Dashboard",
+          "meta": {
+            "icon": "el-icon-delete",
+            "affix":true
+          }
+        },
+        {
+          "path":"routerset",
+          "name":"路由配置",
+          "component":"RouterSet",
+          "meta":{
+            "icon":"el-icon-delete"
+          }
+        },
+        {
+          "path": "help",
+          "name": "帮助",
+          "component": "RouterView",
+          "meta": {
+            "icon": "el-icon-delete"
+          },
+          "children": [
+            {
+              "path": "index",
+              "name": "帮助",
+              "component": "Help",
+              "meta": {
+                "icon": "el-icon-delete"
+              }
+            },
+            {
+              "path": "about",
+              "name": "关于",
+              "component": "About",
+              "meta": {
+                "icon": "el-icon-delete"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/login",
+      "name": "登陆",
+      "component": "Login",
+      "meta": {
+        "icon": "el-icon-delete"
+      }
+    }
+  ]
+}
