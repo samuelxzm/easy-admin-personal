@@ -11,6 +11,7 @@ let modules = modulesFiles.keys().reduce((modules, modulePath) => {
   return modules
 }, {})
 modules['tagsView']=Ea.TagviewStore
+modules['settings']=Ea.PagesettingStore
 const store = new Vuex.Store({
 modules,
 getters

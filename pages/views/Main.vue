@@ -15,7 +15,6 @@
         <ea-pagesetting slot="options"/>
         <ea-usercenter slot="options" /> -->
       </ea-header>
-      <router-view slot="main" />
     </ea-layout>
   </div>
 </template>

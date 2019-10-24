@@ -14,7 +14,7 @@
     "element-ui": "^2.12.0",
     "js-cookie": "^2.2.1",
     "screenfull": "^5.0.0",
-    "easy-admin-framework": "^0.1.1",
+    "easy-admin-framework": "^0.1.4",
     "svg-sprite-loader": "^4.1.6",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
