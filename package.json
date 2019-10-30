@@ -4,6 +4,7 @@
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "serve-nolayout": "vue-cli-service serve --mode nolayout",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
